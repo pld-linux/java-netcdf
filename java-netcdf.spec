@@ -2,16 +2,16 @@
 Summary:	NetCDF Java libraries
 Summary(pl.UTF-8):	Biblioteki NetCDF dla języka Java
 Name:		java-netcdf
-Version:	4.6.11
+Version:	4.6.13
 Release:	1
 License:	BSD-like
 Group:		Libraries
 Source0:	ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-java/v4.6/ncIdv-%{version}.jar
-# Source0-md5:	93809377b3652a270ce492fc8e7c1226
+# Source0-md5:	ffaa62a28041fc2316fd8febe6ad2431
 Source1:	ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-java/v4.6/netcdfAll-%{version}.jar
-# Source1-md5:	956a3357e7d2878b46facdf23e16b886
+# Source1-md5:	d3d03e176b296c0890d130f3af497019
 Source2:	ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-java/v4.6/toolsUI-%{version}.jar
-# Source2-md5:	1080da1e820dae6b9af2cb38e2792aca
+# Source2-md5:	c75bd8846dc859568d667b57e41f71e7
 URL:		http://www.unidata.ucar.edu/software/netcdf-java/
 Requires:	jre
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
